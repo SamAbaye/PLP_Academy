@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Form</title>
+</head>
+<body>
+    <h1>Enhanced Form</h1>
+    <section>
+        <h2>List Example</h2>
+        <ul type="1" class="unordered-list" >
+            <li>Laptop</li>
+            <li>Iphone</li>
+            <li>TV Set</li>
+        </ul>
+        <ol type="I">
+            <li>Onion</li>
+            <li>Tomatoes</li>
+            <li>Carrot</li>
+        </ol>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Hyper-Text Markup Language, is the fundamental building block of the web. It's a markup language used to structure and define the content displayed in web browsers. </dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets. 
+                It is a style sheet language used for specifying the presentation and styling of documents written in a markup language, most commonly HTML.</dd>
+            <dt>JavaScript</dt>
+            <dd>JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else. </dd>
+        </dl>
+    </section>
+    <section>
+        <h2>Table Example</h2>
+        <table border="2"><!--Add border-->
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+            <tr>
+                <td>Cell 1</td>
+                <td>Cell 2</td>
+                <td>Cell 3</td>
+            </tr>
+            <tr>
+                <td>Cell 4</td>
+                <td>Cell 5</td>
+                <td>Cell 6</td>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <h2>Media Example</h2>
+        <img src="https://a.espncdn.com/photo/2024/0717/men_soc_21-century-athletes_16x9.jpg" alt="Placeholder Image" width="300" height="200">
+        <video controls width="300" height="200" style="margin-left:20px;">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <br>
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+    </section>
+    <section>
+        <h2>Form Example</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Joe Doe" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="example@email.com" required><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="!@#Abc12" minlength="8" maxlength="20" pattern="[a-z0-9._%+-]+@[a-z0-9.-]" required/><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
